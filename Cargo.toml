@@ -1,0 +1,37 @@
+[package]
+name = "directxtutorial-rust"
+edition = "2024"
+include = ["11"]
+
+[dependencies]
+windows = { version = "0.58", features = ["Win32_Graphics_Gdi","Win32_UI_WindowsAndMessaging","Win32_Graphics_Direct3D",
+"Win32_Graphics_Direct3D11",
+"Win32_Graphics_Dxgi_Common"] }
+
+[[bin]]
+name = "11-1-2"
+path = "11/11-1-2/main.rs"
+
+[[bin]]
+name = "11-1-3"
+path = "11/11-1-3/main.rs"
+
+[[bin]]
+name = "11-1-4"
+path = "11/11-1-4/main.rs"
+
+[[bin]]
+name = "11-1-5"
+path = "11/11-1-5/main.rs"
+
+[[bin]]
+name = "11-4-2"
+path = "11/11-4-2/main.rs"
+
+[[bin]]
+name = "11-4-3"
+path = "11/11-4-3/main.rs"
+
+[[bin]]
+name = "11-4-5"
+path = "11/11-4-5/main.rs"
